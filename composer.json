@@ -1,0 +1,32 @@
+{
+  "name" : "eventchain",
+  "description" : "Automatic front-end output of Pods Templates.",
+  "type" : "wordpress-plugin",
+  "keywords" : [ "wordpress" ],
+  "license" : "GPL-2.0+",
+  "authors" : [
+    {
+      "name" : "Event Chain",
+      "email" : "email@somewhere.com",
+      "role" : "Lead Developer"
+    },
+    {
+      "name" : "Developer Name",
+      "email" : "email@somewhere.com",
+      "role" : "Developer"
+    },
+  ],
+  "require" : {
+    "composer/installers" : "~1.0.0",
+    "php" : ">=5.2.4",
+    "twbs/bootstrap" : "3.2"
+  },
+  "extra" : {
+    "installer-name" : "plugin-name"
+  },
+  "homepage" : "http://plugin-name.com",
+  "support": {
+    "issues": "https://github.com/vendor/plugin-name/issues",
+    "source": "https://github.com/vendor/plugin-name/pods-frontier-auto-template"
+  }
+}
